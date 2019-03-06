@@ -10,3 +10,6 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
+# 注：
+1、微信中不支持 undefined 数据类型，当变量被赋值为undefined时，依赖此变量渲染出来的页面值为空
+
