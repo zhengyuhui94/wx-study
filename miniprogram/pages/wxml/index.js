@@ -5,7 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
+    time: new Date().getFullYear(),
+    var2: undefined, // undefined
+    contentShow: false,
+    num: 1
+    // item: {
+    //   index: 0,
+    //   msg: 'this is a template',
+    //   time: '2016-06-18'
+    // }
+  },
 
+  addNum: function (){
+    this.data.num += 1;
+    this.setData({ num: this.data.num})
+    console.log(this.data.num);
   },
 
   /**

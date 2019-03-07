@@ -1,2 +1,11 @@
-<!--pages/wxml/index.wxml-->
-<text>pages/wxml/index.wxml</text>
+<view class='hello-world'>
+  <text>hello world</text>
+  <image class='wx-logo' src='./wx.png'></image>
+  <text data-time='{{time}}'>{{time + '年'}}</text>
+  <button bindtap='addNum'>{{num}}</button>
+  <text wx:if='{{!content}}'>content</text>
+</view>
+<view>{{var2}}</view>
+<!-- <import src="./item.wxml"/>
+<template is="msgItem" data="{{...item}}"/> -->
+

@@ -1,1 +1,12 @@
-/* pages/wxml/index.wxss */
+.hello-world {
+  font-size: 52rpx;
+  color: royalblue;
+  text-align: center;
+}
+.wx-logo {
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+}
